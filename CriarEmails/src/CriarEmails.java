@@ -40,7 +40,7 @@ public class CriarEmails extends Applet implements ActionListener{
 			public void actionPerformed(ActionEvent arg0) {
 				String Email=txtPrimeiroNome.getText()+"."+txtSegundoNome.getText()+"@empresa.pt";
 				lblResultado.setText(Email);
-				JOptionPane.showMessageDialog(null, "Qualquer  email" + Email, "Applet", 1);
+				JOptionPane.showMessageDialog(null, "Qualquer email" + Email, "Applet", 1);
 			}
 		});
 
